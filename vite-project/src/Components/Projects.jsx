@@ -42,19 +42,7 @@ const projects = [
       { label: "Live Demo", href: "#" },
     ],
   },
-//   {
-//     title: "Social Media API",
-//     description:
-//       "A robust RESTful API for a social media platform with user authentication, post management, real-time messaging, and comprehensive admin controls.",
-//     tags: ["Express.js", "MongoDB", "JWT", "Redis"],
-//     badge: "Backend",
-//     category: "APIs",
-//     image: "https://via.placeholder.com/600x300?text=Social+Media+API+Screenshot",
-//     links: [
-//       { label: "Code", href: "#" },
-//       { label: "Documentation", href: "#" },
-//     ],
-//   },
+
 ];
 
 export default function FeaturedProjects() {

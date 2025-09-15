@@ -4,6 +4,7 @@ import Dashboard from './Components/Dashboard'
 import LandingPage1 from './Components/LandingPage1'
 import Technologies from './Components/Technologies'
 import FeaturedProjects from './Components/Projects'
+import ExperienceEducation from './Components/Education'
 function App() {
   
 
@@ -13,6 +14,7 @@ function App() {
       <LandingPage1/>
       <Technologies/>
       <FeaturedProjects />
+      <ExperienceEducation />
    
       
     </>
