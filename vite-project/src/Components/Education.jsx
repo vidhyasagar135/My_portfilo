@@ -27,6 +27,7 @@ const education = [
     CGPA:"CGPA : 9.13",
     tags: ["Data Structures", "Algorithms", "Software Engineering"],
   },
+
   
  
 ];

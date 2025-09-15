@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-
+import LogoInvoice from "../assets/Logo_invoice.png";
+import Gitlogo from "../assets/git_logo.png";
+import weather from "../assets/Weather_logo.png";
 const categories = ["All", "Web Apps", "Mobile", "APIs"];
 
 const projects = [
@@ -10,7 +12,7 @@ const projects = [
     tags: ["React",  "MongoDB", "Node js"],
     badge: "Featured",
     category: "Web Apps",
-    image: "https://via.placeholder.com/600x300?text=E-commerce+Platform+Screenshot",
+    image: LogoInvoice,
     links: [
       { label: "Code", href: "https://github.com/vidhyasagar135/Invoice_gen", target: "_blank" },
       { label: "Live Demo", href: "#" },
@@ -23,7 +25,7 @@ const projects = [
     tags: ["React js", "Mongo", "Node js"],
     badge: "Popular",
     category: "Web Apps",
-    image: "https://via.placeholder.com/600x300?text=Task+Management+App+Screenshot",
+    image: Gitlogo,
     links: [
       { label: "Code", href: "#" },
       { label: "Live Demo", href: "#" },
@@ -36,7 +38,7 @@ const projects = [
     tags: ["Html", "CSS", "Java Script"],
     badge: "New",
     category: "Web Apps",
-    image: "https://via.placeholder.com/600x300?text=Weather+Dashboard+Screenshot",
+    image: weather,
     links: [
       { label: "Code", href: "https://github.com/vidhyasagar135/API_WEATHER" , target: "_blank" },
       { label: "Live Demo", href: "#" },

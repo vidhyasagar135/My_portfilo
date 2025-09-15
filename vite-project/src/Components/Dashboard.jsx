@@ -6,7 +6,7 @@ const Dashboard = () => {
     <nav className="flex items-center justify-between px-8 py-4 shadow-md bg-white">
    
       <div className="text-xl font-semibold text-gray-1000">
-        VIDHYA SAGAR
+        VIDHYA SAGAR VALAPADASU
       </div>
 
 
