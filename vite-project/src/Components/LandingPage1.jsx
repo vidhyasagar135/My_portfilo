@@ -17,11 +17,18 @@ const LandingPage1 = () => {
             </h1>
 
             <p className="mt-6 text-gray-600 leading-relaxed">
-              I'm Vidhya Sagar, a passionate full-stack developer and DSA enthusiast with 150+ problems solved across online platforms. Proficient in Python and Java, I enjoy building innovative web applications and digital solutions.
+              {" "}
+              <span className="text-2xl font-bold text-gray-900">
+                I'm Vidhya Sagar Valapadasu
+              </span>
+              , a passionate full-stack developer and DSA enthusiast with 150+ problems solved across online platforms. Proficient in Python and Java, I enjoy building innovative web applications and digital solutions.
+              <span className="inline-flex items-center ml-3 gap-2">
+                <span className="w-3 h-3 bg-green-500 rounded-full"></span>
+                <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
+              </span>
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-           
               <a
                 href="/Resume.pdf"
                 download
@@ -31,7 +38,6 @@ const LandingPage1 = () => {
               </a>
             </div>
 
-    
             <div className="mt-6 flex items-center gap-5 text-xl text-gray-600">
               <a
                 href="https://github.com/vidhyasagar135"
@@ -61,9 +67,8 @@ const LandingPage1 = () => {
             </div>
           </div>
 
-       
+          {/* Right */}
           <div className="relative">
-            {/* Image frame */}
             <div className="relative rounded-3xl bg-gray-200 overflow-hidden shadow-xl ring-1 ring-black/5 md:h-[480px] h-[360px]">
               <img
                 src="/profile-illustration.png"
@@ -78,9 +83,7 @@ const LandingPage1 = () => {
             {/* Floating badge */}
             <div className="absolute bottom-6 left-6 bg-white/95 backdrop-blur rounded-xl shadow-lg ring-1 ring-black/5 px-4 py-2 flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" />
-              <span className="text-sm text-gray-700">
-                Open to Work
-              </span>
+              <span className="text-sm text-gray-700">Open to Work</span>
             </div>
           </div>
         </div>
