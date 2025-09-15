@@ -4,23 +4,23 @@ const categories = ["All", "Web Apps", "Mobile", "APIs"];
 
 const projects = [
   {
-    title: "E-commerce Platform",
+    title: "Invoice Generator For small Startups and Bussiness Using React",
     description:
-      "A full-stack e-commerce solution with user authentication, payment processing, inventory management, and admin dashboard. Built with modern technologies for scalability.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      "A sleek and customizable invoice generator built with React, tailored for small startups and businesses to streamline billing. It supports dynamic item entries, tax calculations, and PDF-ready exports for professional invoicing.",
+    tags: ["React",  "MongoDB", "Node js"],
     badge: "Featured",
     category: "Web Apps",
     image: "https://via.placeholder.com/600x300?text=E-commerce+Platform+Screenshot",
     links: [
-      { label: "Code", href: "#" },
+      { label: "Code", href: "https://github.com/vidhyasagar135/Invoice_gen", target: "_blank" },
       { label: "Live Demo", href: "#" },
     ],
   },
   {
-    title: "Task Management App",
+    title: "Discover & Save Top GitHub Profiles",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, team collaboration features, and comprehensive project tracking.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Socket.io"],
+      "Explore a curated collection of standout GitHub profiles showcasing innovative projects, clean code, and community impact. Perfect for finding inspiration, collaborators, or role models in the developer world.",
+    tags: ["React js", "Mongo", "Node js"],
     badge: "Popular",
     category: "Web Apps",
     image: "https://via.placeholder.com/600x300?text=Task+Management+App+Screenshot",
@@ -33,28 +33,28 @@ const projects = [
     title: "Weather Dashboard",
     description:
       "A responsive weather application with location-based forecasts, interactive maps, weather alerts, and detailed analytics. Integrates multiple weather APIs for accuracy.",
-    tags: ["React", "D3.js", "OpenWeather API", "Tailwind"],
+    tags: ["Html", "CSS", "Java Script"],
     badge: "New",
     category: "Web Apps",
     image: "https://via.placeholder.com/600x300?text=Weather+Dashboard+Screenshot",
     links: [
-      { label: "Code", href: "#" },
+      { label: "Code", href: "https://github.com/vidhyasagar135/API_WEATHER" , target: "_blank" },
       { label: "Live Demo", href: "#" },
     ],
   },
-  {
-    title: "Social Media API",
-    description:
-      "A robust RESTful API for a social media platform with user authentication, post management, real-time messaging, and comprehensive admin controls.",
-    tags: ["Express.js", "MongoDB", "JWT", "Redis"],
-    badge: "Backend",
-    category: "APIs",
-    image: "https://via.placeholder.com/600x300?text=Social+Media+API+Screenshot",
-    links: [
-      { label: "Code", href: "#" },
-      { label: "Documentation", href: "#" },
-    ],
-  },
+//   {
+//     title: "Social Media API",
+//     description:
+//       "A robust RESTful API for a social media platform with user authentication, post management, real-time messaging, and comprehensive admin controls.",
+//     tags: ["Express.js", "MongoDB", "JWT", "Redis"],
+//     badge: "Backend",
+//     category: "APIs",
+//     image: "https://via.placeholder.com/600x300?text=Social+Media+API+Screenshot",
+//     links: [
+//       { label: "Code", href: "#" },
+//       { label: "Documentation", href: "#" },
+//     ],
+//   },
 ];
 
 export default function FeaturedProjects() {
